@@ -7,7 +7,7 @@ int main()
     scanf("%[^\n]s",result);
     int i;
     float j;double k;char name[50];
-    sscanf(result,"%d %f %lf %[^\n]s",&i,&j,&k,&name);
+    sscanf(result,"%d %f %lf %[^\n]s",&i,&j,&k,&name); //thats the format (string,"format specifier","&variables");
     printf("%d %f %lf %s\n",i,j,k,name);
     return 0;
 }
